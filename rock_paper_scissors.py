@@ -12,4 +12,6 @@ game_choices = ["rock", "paper", "scissors"]
 
 comp_choice = rng.choice(game_choices)
 
-print(comp_choice)
+player_choice = input("Please choose rock, paper, or scissors: ").lower()
+
+print(player_choice)
