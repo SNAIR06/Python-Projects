@@ -25,7 +25,7 @@ def find_winner(player_choice, comp_choice):
         elif comp_choice == "paper":
             input("YOU LOST! Press any key to play again: ")
         elif comp_choice == "scissors":
-            input("YOU WON! Press any key to play againL: ")
+            input("YOU WON! Press any key to play again: ")
 def main():
     game_choices = ["rock", "paper", "scissors"]
     player_choice, comp_choice = game_beginning(game_choices) 
